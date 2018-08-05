@@ -43,3 +43,4 @@ The lion's share of the credit goes to Adafruit - https://github.com/adafruit/Ad
 I started with: https://github.com/nfriedly/Adafruit_SSD1351_Photon
 the creator of the above started with: https://github.com/mikeseeh/photon-demo-oled-sdcard
 Which I think is based on https://github.com/pkourany/Adafruit_SSD1351_Library/
+For full license details, refer to the license file in the library's directory.
