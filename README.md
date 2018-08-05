@@ -50,11 +50,11 @@ See https://learn.adafruit.com/adafruit-gfx-graphics-library/
 
 ## How to use with Particle IDE
 
--Search for the following library in the IDE: Adafruit_SSD1351_Photon
--Use the example: OLED_test.ino. This will create a new app named oled-test.ino
--Search for the following library in the IDE: ADAFRUIT_MFGFX. Add to your oled-test.ino test file
--Verify the code before running. If you run into any errors, it is likely due to not getting the correct libraries. 
--Run code 
+- Search for the following library in the IDE: Adafruit_SSD1351_Photon
+- Use the example: OLED_test.ino. This will create a new app named oled-test.ino
+- Search for the following library in the IDE: ADAFRUIT_MFGFX. Add to your oled-test.ino test file
+- Verify the code before running. If you run into any errors, it is likely due to not getting the correct libraries. 
+- Run code 
 
 Credits
 This is based on a collection of work from other tallented developers, 99.9% of the credit goes to them.
