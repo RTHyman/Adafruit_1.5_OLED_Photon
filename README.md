@@ -13,6 +13,7 @@ With a small change, this library could be adjusted to work with 1.27 inch OLED,
 Wiring
 For hardware SPI (considerably faster), connect the pins as follows:
 
+```
 Photon  -> OLED
 ----------------------
 3V3     -> 3Vo (3V)
@@ -25,7 +26,10 @@ A5      -> MOSI (SI)
 A3      -> SCK (CL)
 
 A2      -> OLEDCS (OC)
+```
+
 DC and RESET may be set to any pin, but the example defaults to D5 & D6.
+
 
 Any combination of pins may be used for software SPI, but the display will update more slowly.
 
