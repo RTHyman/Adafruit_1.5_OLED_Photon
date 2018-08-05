@@ -1,10 +1,20 @@
 # Adafruit_1.5_OLED_Photon
 
+## Overview 
+
 This is a repo to test functionality of Adafruit 1.5 inch OLED SPI connection to Particle.io and provide comprehensive instructions. 
 
-Connect an Adafruit SSD1351 1.5" Color OLED breakout board to a Particle Photon. Use the Particle IDE to use code - currently this is designed as an instructional guide + backup location for files, working out of the Particle IDE is current state. Next step is to make this guide functional by downloading the repo to local desktop and then use Particle CLI to compile and run.
+**First step is wiring:**
 
-Limitations
+Connect an Adafruit SSD1351 1.5" Color OLED breakout board to a Particle Photon. 
+
+**Second step is to setup and run code:**
+
+This guide is designed to help new users use the Particle IDE to run testing for the Adafruit 1.5 inch OLED. Next step is to make this guide functional by downloading the repo to local desktop and then use Particle CLI to compile and run.
+
+## Wiring
+
+**Limitations**
 
 MicroSD Card is not currently supported
 Should be possible, but I haven't yet gotten it working. See https://community.particle.io/t/particle-photon-oled-screen-and-sd-card-demo/18145 and https://github.com/mikeseeh/photon-demo-oled-sdcard for examples where folks have succeeded.
@@ -12,7 +22,7 @@ Should be possible, but I haven't yet gotten it working. See https://community.p
 Requires modification for other screen sizes
 With a small change, this library could be adjusted to work with 1.27 inch OLED, and possibly the 0.96 inch OLED breakout boards.
 
-##Wiring
+**Wiring**
 
 For hardware SPI (considerably faster), connect the pins as follows:
 
@@ -38,7 +48,7 @@ Any combination of pins may be used for software SPI, but the display will updat
 API documentation
 See https://learn.adafruit.com/adafruit-gfx-graphics-library/
 
-##How to use with Particle IDE
+## How to use with Particle IDE
 
 -Search for the following library in the IDE: Adafruit_SSD1351_Photon
 -Use the example: OLED_test.ino. This will create a new app named oled-test.ino
