@@ -56,7 +56,8 @@ See https://learn.adafruit.com/adafruit-gfx-graphics-library/
 - Verify the code before running. If you run into any errors, it is likely due to not getting the correct libraries. 
 - Run code 
 
-Credits
+Credits:
+
 This is based on a collection of work from other tallented developers, 99.9% of the credit goes to them.
 
 The lion's share of the credit goes to Adafruit - https://github.com/adafruit/Adafruit-SSD1351-library
