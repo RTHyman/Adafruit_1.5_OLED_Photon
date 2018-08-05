@@ -2,8 +2,6 @@
 
 This is a repo to test functionality of Adafruit 1.5 inch OLED SPI connection to Particle.io 
 
-This is a test edit
-
 Connect an Adafruit SSD1351 1.5" Color OLED breakout board to a Particle Photon.
 
 Limitations
